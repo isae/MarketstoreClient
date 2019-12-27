@@ -14,7 +14,7 @@ val ktorVersion: String by project
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("com.daveanthonythomas.moshipack:moshipack:1.0.0-beta") //https://github.com/davethomas11/MoshiPack
-    compile("io.ktor:ktor-server-netty:${ktorVersion}")
+    compile("io.ktor:ktor-client:${ktorVersion}")
     testCompile("junit:junit:4.12")
 }
 
